@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About – Thoughters</title>
+  <meta name="description" content="About Justin Jose and Rishabh Gupta, school friends and the minds behind Thoughters.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .about-photo {
+      max-width: 420px;
+      width: 100%;
+      border-radius: 12px;
+      margin: 0 auto 2.5rem;
+      display: block;
+      box-shadow: var(--shadow);
+    }
+    .origin-story {
+      max-width: 640px;
+      margin: 0 auto 3.5rem;
+      background: var(--bg-alt);
+      padding: 1.75rem 2rem;
+      border-radius: var(--radius);
+      font-size: 1.02rem;
+      line-height: 1.7;
+    }
+    .origin-story h2 {
+      margin-top: 0;
+      font-size: 1.3rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">Thoughters<span>.</span></a>
+      <button class="menu-toggle" aria-label="Menu" id="menuToggle">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="essay.html">Essay</a>
+        <a href="about.html" class="active">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="about-hero">
+      <div class="container">
+        <h1>About us</h1>
+        <p class="about-intro">
+          Two school friends who still like arguing about the long game — cities, cultures, technology, and the next few centuries.
+        </p>
+      </div>
+    </section>
+
+    <section class="container">
+      <img src="about-photo.jpg" alt="Justin Jose and Rishabh Gupta" class="about-photo">
+
+      <div class="origin-story">
+        <h2>Where the word came from</h2>
+        <p>
+          Sometime in the early 1990s, a classmate at St. Columba’s in New Delhi earnestly tried to say “thinking” and came out with “thoughting” instead. It stuck. For years it was just an inside joke — the kind of nonsense that only makes sense if you were there. Three decades later, when we finally decided to put some of our longer thoughts into the world, the old joke felt oddly perfect. Thoughting. Thoughters. A slightly broken, slightly cheeky name for a place where two people still try to think in public without taking themselves too seriously.
+        </p>
+      </div>
+
+      <div class="people">
+        <div class="person-card">
+          <h2>Justin Jose</h2>
+          <div class="person-role">Thoughter</div>
+          <p>
+            Justin is a strategic thinker who has spent most of his adult life moving between cities and cultures — Delhi, Mumbai, Kochi, Amsterdam, Dubai, London, New York and more. The constant motion became a kind of education: watching how different places handle growth, stress, bureaucracy and hope. He writes from the vantage point of someone who has seen the same problems wear different clothes in different time zones, and who still believes careful observation beats loud opinion. Father of two, chronic notetaker, and the one who first insisted that “three centuries” was a useful unit of time to think in.
+          </p>
+        </div>
+
+        <div class="person-card">
+          <h2>Rishabh Gupta</h2>
+          <div class="person-role">Thoughter</div>
+          <p>
+            Rishabh is a systems thinker with a sharp eye for how institutions, markets and technology actually behave over time. Educated at MIT and ISB, he has spent years working across strategy, technology and complex organisations, always drawn to the deeper patterns rather than the surface noise. Equally well-travelled, he brings the same restless curiosity about cultures, cities and long-term change. At Thoughters he writes and argues with the same seriousness he brings to the rest of his work — clear, rigorous, and allergic to empty jargon.
+          </p>
+        </div>
+      </div>
+
+      <p style="text-align: center; max-width: 540px; margin: 0 auto 4rem; color: var(--text-muted); font-size: 0.98rem;">
+        This is not a business site. It is simply two people who like thinking in public — about civilizations, cities, and the longer arc of change — and who decided the old school joke was good enough to name the experiment after.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">Thoughters</div>
+      <div class="footer-copy">© 2026 Justin Jose & Rishabh Gupta. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
