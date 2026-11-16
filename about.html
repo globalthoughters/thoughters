@@ -1,21 +1,104 @@
-About us
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About – Thoughters</title>
+  <meta name="description" content="About the two people behind Thoughters.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .about-photo {
+      max-width: 420px;
+      width: 100%;
+      border-radius: 12px;
+      margin: 0 auto 2.5rem;
+      display: block;
+      box-shadow: var(--shadow);
+    }
+    .origin-story {
+      max-width: 640px;
+      margin: 0 auto 3.5rem;
+      background: var(--bg-alt);
+      padding: 1.75rem 2rem;
+      border-radius: var(--radius);
+      font-size: 1.02rem;
+      line-height: 1.7;
+    }
+    .origin-story h2 {
+      margin-top: 0;
+      font-size: 1.3rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">Thoughters<span>.</span></a>
+      <button class="menu-toggle" aria-label="Menu" id="menuToggle">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="essay.html">Essay</a>
+        <a href="soft-power.html">Writings</a>
+        <a href="about.html" class="active">About</a>
+      </nav>
+    </div>
+  </header>
 
-Two friends who still like arguing about the long game — how people live, how systems work, and what the future might hold.
+  <main>
+    <section class="about-hero">
+      <div class="container">
+        <h1>About us</h1>
+        <p class="about-intro">
+          Two friends in their forties who still like arguing about the long game — cities, cultures, technology, and the next few centuries.
+        </p>
+      </div>
+    </section>
 
-Where the word came from
+    <section class="container">
 
-Years ago, someone trying to say “thinking” came out with “thoughting” instead. It stuck. For a long time it was just an inside joke — the kind of nonsense that makes perfect sense to the people who were there. Much later, when we decided to put some of our longer thoughts into the world, the old joke felt oddly perfect. Thoughting. Thoughters. A slightly broken, slightly cheeky name for a place where two people still try to think in public without taking themselves too seriously.
+      <div class="origin-story">
+        <h2>Where the word came from</h2>
+        <p>
+          Sometime in the early 1990s, a classmate earnestly tried to say “thinking” and came out with “thoughting” instead. It stuck. For years it was just an inside joke — the kind of nonsense that only makes sense if you were there. Three decades later, when we finally decided to put some of our longer thoughts into the world, the old joke felt oddly perfect. Thoughting. Thoughters. A slightly broken, slightly cheeky name for a place where two people still try to think in public without taking themselves too seriously.
+        </p>
+      </div>
 
-J
+      <div class="people">
+        <div class="person-card">
+          <h2>J</h2>
+          <div class="person-role">Thoughter</div>
+          <p>
+            J is a strategic thinker in his forties who has spent most of his adult life moving between cities and cultures. The constant motion became a kind of education: watching how different places handle growth, stress, bureaucracy and hope. He writes from the vantage point of someone who has seen the same problems wear different clothes in different time zones, and who still believes careful observation beats loud opinion. Father of two, chronic notetaker, and the one who first insisted that “three centuries” was a useful unit of time to think in.
+          </p>
+        </div>
 
-Thoughter
-J is a strategy-minded observer whose adult life has involved moving between cities, countries and very different ways of doing things. The constant motion became a kind of education: watching how places handle growth, stress, bureaucracy and hope. He writes from the vantage point of someone who has seen familiar problems wear different clothes in different settings, and who still believes careful observation beats loud opinion. A parent, chronic notetaker, and the one who first insisted that “three centuries” was a useful unit of time to think in.
+        <div class="person-card">
+          <h2>R</h2>
+          <div class="person-role">Thoughter</div>
+          <p>
+            R is a systems thinker in his forties with a sharp eye for how institutions, markets and technology actually behave over time. He has spent years working across strategy, technology and complex organisations, always drawn to the deeper patterns rather than the surface noise. Equally well-travelled, he brings the same restless curiosity about cultures, cities and long-term change. At Thoughters he writes and argues with the same seriousness he brings to the rest of his work — clear, rigorous, and allergic to empty jargon.
+          </p>
+        </div>
+      </div>
 
-R
+      <p style="text-align: center; max-width: 540px; margin: 0 auto 4rem; color: var(--text-muted); font-size: 0.98rem;">
+        This is not a business site. It is simply two people who like thinking in public — about civilizations, cities, and the longer arc of change — and who decided the old school joke was good enough to name the experiment after.
+      </p>
+    </section>
+  </main>
 
-Thoughter
-R is a systems thinker with a sharp eye for how institutions, markets and technology behave over time. His work has taken him across strategy, technology and complex organisations, and he is drawn to the deeper patterns rather than the surface noise. Curious about how cultures, cities and institutions change, he brings a clear, rigorous perspective to Thoughters — and a healthy allergy to empty jargon.
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">Thoughters</div>
+      <div class="footer-copy">© 2026 Thoughters. All rights reserved.</div>
+    </div>
+  </footer>
 
-This is not a business site. It is simply two people who like thinking in public — about societies, cities and the longer arc of change — and who decided an old shared joke was good enough to name the experiment after.
-
-Thoughters
+  <script src="script.js"></script>
+</body>
+</html>
